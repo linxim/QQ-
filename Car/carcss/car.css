@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.shortcut{
+    width: 100%;
+    height: 142px;
+    background-color: #fff;
+    position: relative;
+}
+.shortcut-center{
+    margin: 0 auto;
+    padding-top: 90px;
+    width: 1200px;
+    height: 52px;
+
+    position: relative;
+}
+
+.shortcut  .mod-top {
+    top: 0;
+    position: absolute;
+    left: 198px;
+    
+}
+.qqmusic_logo{
+    position: absolute;
+    left: 0;
+    top:22px;
+}
+.qqmusic_logo_tit{
+    width: 170px;
+    height: 46px;
+}
+.shortcut  .mod-top li{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 90px;
+    width: 94px;
+    height: 90px;
+    float: left;
+}
+.shortcut  .mod-top a:hover{
+    color: #31c27c;
+}
+.shortcut  .mod-top .top_nav{
+    background-color: #31c27c ;
+    color: #fff !important;
+    display: block;
+}
+.mod_top_search{
+   position: absolute;
+   top: 0;
+   right: 284px;
+}
+.mod_search_input{
+
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding:0 33px 0 11px;
+    margin-top: 26px;
+    height: 39px;
+    line-height: 36px;
+
+}
+.search_input_btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0 none;
+    width: 38px;
+    height: 35px;
+    overflow:visible;
+    background: 0 0;
+    cursor: pointer;
+}
+.search_input_input{
+    width: 174px;
+    height: 36px;
+    font-size: 14px;
+    border: 0 none;
+    background: 0 0;
+    outline: none;
+}
+.mod_top_search:hover .mod_search_other{
+   
+    display: block;
+}
+
+.search_hot{
+    padding: 5px 0;
+}
+.mod_search_other{
+    display: none;
+    position:absolute;
+    top:63px;
+    left:0;
+    background: #fff;
+    width: 218px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 36px;
+    z-index: 5;
+    border: 1px solid #c9c9c9;
+
+
+}
+.search_hot__list{
+    display: block;
+}
+.search_hot__link{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.search_hot__number{
+    color: #ff4222;
+    float: left;
+    width: 18px;
+}
+.search_hot__name{
+    float: left;
+    color: #333;
+    
+}
+.search_hot__listen{
+    float: right;
+    color: #999;
+    font-size: 12px;
+
+}
+.sprite{
+    position: absolute;
+    top: 50%;
+    right: 11px;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    background-position: 0 -40px;
+}
+
+.header_opt{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 90px;
+    line-height: 90px;
+}
+.mod_top_login{
+    height: 90px;
+    line-height: 90px;
+    font-size: 0;
+}
+.header_opt .top_login{
+    position: relative;
+    font-size: 16px;
+    float: left;
+    width:38px;
+}
+.header_opt .top_green,.top_vip{
+    line-height: 38px;
+    margin: 24px 0px 0px 10px;
+    padding: 0 9px;
+    font-size: 13px;
+    display: inline-block;
+    border-radius: 2px;
+}
+.header_opt .top_green{
+    border: 1px solid #31c27c;
+    background-color: #31c27c;
+    color: #fff;
+    
+}
+.header_opt .top_vip{
+    border: 1px solid #c9c9c9;
+   
+}
+.shortcut-center .mod_top_subnav{
+   
+    height: 51px;
+    line-height: 51px;
+    border-top: 1px solid #f2f2f2;
+    padding-left: 230px;
+    margin-right: -50px;
+ 
+  
+}
+.top_subnav__item{
+  float: left;  
+  margin-right: 47px;
+  
+}
+.top_subnav__item:hover{
+    color: #31c27c;
+    cursor: pointer;
+   
+}

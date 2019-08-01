@@ -1,0 +1,139 @@
+.music_index_xdsf{
+    width: 100%;
+    height: 666px;
+    position: relative;
+}
+.section_inner_xdsf{
+    position: relative;
+    margin: 0 auto;
+    height: 666px;
+    width: 1200px;
+    
+    background:linear-gradient(rgba(221,221,221,1),rgba(255,255,255,0));
+}
+.index_more{
+    position: absolute;
+    right: 0;
+    top: 56px;
+    font-size: 15px;
+  
+    font-family: Arial;
+}
+.index_more:hover{
+    color: #31c27c;
+}
+.mod_playlist_xdsf{
+    height: 500px;
+    
+    margin-bottom: 20px;
+   
+ 
+    
+   
+}
+.mod_playlist_txdsf{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+   
+}
+.playlist-wd{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+    
+}
+.playlist__item{
+    
+   
+   
+    width: 19%;
+    height: 248px;
+  
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    vertical-align: top;
+}
+.playlist__item_box{
+    position: relative;
+    margin-right: 20px;
+    
+    height: 100%;
+}
+.play_list__cover{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    
+    padding-top: 100%;
+}
+.play_list__cover img{
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: linear 0.5s;
+}
+.playlist__cover2{
+    top: 74px;
+    margin-left:64px; 
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    float: left;
+    margin-bottom: 15px;
+   
+     visibility: hidden;
+}
+.playlist__item_box:hover>.playlist__cover2{
+    visibility: visible;
+    cursor: pointer;
+
+}
+.playlist__item_box .play_list__cover img:hover{
+    transform: scale(1.1);
+}
+.playlist__cover2>.icon2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -35px;
+    font-size: 70px;
+    background: rgba(255,255, 255, 0);
+    color: rgba(134, 128, 128,0.5);
+   
+}
+.mod_playlist_xdsf .playlist__item_box>a{
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 22px;
+    height: 22px;
+    text-align: left;
+}
+.playlist__author{
+    width: 100%;
+    text-align: left;
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 22px;
+}
+.playlist__author a{
+    color: #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 22px;
+}

@@ -1,0 +1,25 @@
+.gudinglogo{
+    position: fixed;
+    top: 164px;
+    right: 40px;
+    padding: 18px;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.07);
+    background-color: #fff;
+}
+.gudinglogo p{
+    text-align: center;
+    color: #666666;
+}
+.gudinglogo a{
+    display: block;
+    margin: 0 auto;
+    background-color: #31c27c;
+    text-align: center;
+    color: #fff;
+    border-radius: 26px;
+    font-size: 15px;
+    width: 130px;
+    height: 26px;
+    line-height: 26px;
+}
